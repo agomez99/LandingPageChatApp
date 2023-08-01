@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+:root{
+--lightviolet: hsl(264, 100%, 61%);
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+
+main {
+  padding: 1rem;
+  background-color: var(--lightviolet);
+}
+.container{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height:100dvh;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.phone{
+  height:30rem;
+  width:18rem;
+  background-color: white;
+  border-radius: 15px;
+}
