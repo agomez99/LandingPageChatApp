@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,8 @@
 --paleviolet:hsl(276, 100%, 81%);
 --lightgrayviolet:hsl(270, 20%, 96%);
 --white: hsl(0, 0%, 100%);
+--darksatviolet:hsl(271, 36%, 24%);
+--darkgrayviolet:hsl(270, 7%, 64%);
 }
 body {
   margin: 0;
@@ -20,7 +23,8 @@ body {
 
 main {
   padding: 1rem;
-  background-color: var(--lightviolet);
+  background-color: var(--lightgrayviolet);
+  font-family: 'Rubik', sans-serif;
 }
 .container{
   display: flex;
@@ -28,9 +32,13 @@ main {
   align-items: center;
   height:100dvh;
 }
-h1 {
+.header {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  color:var(--darksatviolet);
+}
+.body-text{
+color:var(--darkgrayviolet)
 }
 .phone-section{
   display: flex;
