@@ -27,6 +27,28 @@ main {
   background-color: var(--lightgrayviolet);
   font-family: 'Rubik', sans-serif;
 }
+.background-shape{
+  height:80vh;
+  width:50rem;
+  background-image:linear-gradient(90deg, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  border-radius: 0px 0px 50% 50%;
+  position: absolute;
+  top:0px;
+  left:-10%;
+
+}
+.background-shape-right{
+
+    height:80vh;
+    width:50rem;
+    background-color: hsl(264, 33%, 94%);
+    border-radius: 50% 50% 0px 0px ;
+    position: absolute;
+    bottom:0px;
+   right:-10%;
+  
+  
+}
 .container{
   display: flex;
   align-content: center;
@@ -53,6 +75,8 @@ color:var(--darkgrayviolet)
   border-radius: 35px;
   padding:2%;
   text-align: center;
+  position: relative;
+
 }
 .camera{
   border-radius: 15px 15px 36px 36px;
