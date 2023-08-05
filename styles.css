@@ -164,6 +164,10 @@ p.top-name{
   margin-top: 30px;
   display: flex;
 }
+.message-input{
+margin-top: auto;
+margin-bottom: auto;
+}
 .send-button{
   border-radius: 50px;
   background-color: hsl(271, 36%, 24%);
