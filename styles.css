@@ -27,9 +27,9 @@ main {
   background-color: var(--lightgrayviolet);
   font-family: 'Rubik', sans-serif;
 }
-.background-shape{
-  height:80vh;
-  width:50rem;
+.background-shape-left{
+  height:85vh;
+  width:40rem;
   background-image:linear-gradient(90deg, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
   border-radius: 0px 0px 50% 50%;
   position: absolute;
@@ -39,13 +39,13 @@ main {
 }
 .background-shape-right{
 
-    height:80vh;
-    width:50rem;
+    height:85vh;
+    width:40rem;
     background-color: hsl(264, 33%, 94%);
     border-radius: 50% 50% 0px 0px ;
     position: absolute;
     bottom:0px;
-   right:-10%;
+   right:-20%;
   
   
 }
@@ -56,7 +56,7 @@ main {
   height:100dvh;
 }
 .header {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 2.5rem;
   color:var(--darksatviolet);
 }
@@ -67,19 +67,20 @@ color:var(--darkgrayviolet)
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left:auto;
 }
 .phone{
-  height:36rem;
+  height:34rem;
   width:18rem;
   background-color: white;
   border-radius: 35px;
   padding:2%;
+
   text-align: center;
   position: relative;
-
 }
 .camera{
-  border-radius: 15px 15px 36px 36px;
+  border-radius: 15px 15px 35px 35px;
   height:25px;
   background-color: rgb(255, 255, 255);
   position: relative;
@@ -90,16 +91,16 @@ color:var(--darkgrayviolet)
 }
 .screen{
 background-color: var(--lightgrayviolet);
-height: 30rem;
-border-radius: 0px 0px 15px 15px;
+height: 28rem;
+border-radius: 0px 0px 35px 35px;
 position: relative;
-top:-45px;
+top:-40px;
+padding-top:5%;
 
 }
 .top-section{
   height:80px;;
  background-image:linear-gradient(90deg, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
-
  border-radius: 35px 35px 0px 0px;
 position: relative;
 top:-30px;
@@ -128,24 +129,24 @@ p.top-name{
 }
 .from-message{
   font-size: 0.5rem;
-  border-radius: 15px 15px 15px 0px;
+  border-radius: 15px 15px 15px 5px;
   text-align: left;
-  height:50px;
+  height:40px;
   color: var(--moderateviolet);
   background-color: hsl(265, 62%, 92%);
   width: 60%;
   padding: 5px;
-  margin:5px;
+  margin:10px;
 }
 
 
 .to-message{
   font-size: 0.5rem;
-  border-radius: 15px 15px 0px 15px;
+  border-radius: 15px 15px 5px 15px;
   text-align: left;
-  height:50px;
+  height:30px;
   color: var(--moderateviolet);
-  width: 60%;
+  width:fit-content;
   padding: 5px;
   margin:5px;
   margin-left: auto;
@@ -153,15 +154,20 @@ p.top-name{
 }
 
 .price-message{
-  font-size: 0.8rem;
+  font-size: 0.4rem;
   border-radius: 10px 10px 10px 0px;
-  text-align: left;
   height:35px;
   background-image:linear-gradient(90deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   width: 70%;
   padding: 5px;
   margin:5px;
   color:white;
+}
+
+.price{
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left:50%;
 }
 .dog-pic{
   height:40px;
@@ -172,8 +178,11 @@ p.top-name{
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-top:20%;
+  margin-top:30%;
+  margin-left: 10%;
   margin-bottom: auto;
+  position: relative;
+  width:70%;
 }
 .message{
   background-color: var(--white);
@@ -181,11 +190,11 @@ p.top-name{
   height:40px;
   font-size: 0.8rem;
   text-align: left;
-  padding-bottom: 5%;
+  padding: 5%;
   width:95%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
 }
 .message-input{
@@ -198,4 +207,5 @@ margin-bottom: auto;
   border:none;
   margin-left: auto;
   width:25px;
+  height:25px;
 }
